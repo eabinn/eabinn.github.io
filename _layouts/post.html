@@ -2,4 +2,25 @@
 layout: default
 ---
 
+<h1 class="text-center">"{{ page.title }}"</h1>
+<div class="text-center">
+  <span>{%- assign date_format = "%Y-%m-%d" -%} {{ page.date | date: date_format }}</span>
+</div>
+<div class="text-center">
+{%- if page.tags -%}
+  {%- for tag in page.tags -%}
+    {%- if site.data.tags contains tag -%}
+      {%- if tag != 'all' -%}
+        <a class="tag" href="/?tag={{ tag }}">
+          <span class="tag">{{ site.data.format[tag] }}</span>
+        </a>
+        {%- unless forloop.last -%}<span> / </span>{%- endunless -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+</div>
+
+<br />
 {{ content }}
+
