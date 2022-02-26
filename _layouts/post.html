@@ -22,5 +22,11 @@ layout: default
 </div>
 
 <br />
-{{ content }}
 
+<div class="content">
+  {{ content }}
+</div>
+
+{%- if page.comments - %}
+{%- include disqus.html -%}
+{%- endif -%}

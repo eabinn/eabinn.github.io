@@ -2,7 +2,10 @@
  * Custom
  */
 main {
-  height: 80vh;
+  min-height: 80vh;
+  .content {
+    min-height: 50vh;
+  }
 }
 
 .text-green {
