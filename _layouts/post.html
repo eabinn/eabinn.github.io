@@ -27,6 +27,6 @@ layout: default
   {{ content }}
 </div>
 
-{%- if page.comments - %}
-{%- include disqus.html -%}
+{%- if page.comments -%}
+{%- include utterances.html -%}
 {%- endif -%}

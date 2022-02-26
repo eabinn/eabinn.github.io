@@ -14,9 +14,7 @@ footer: Stay hungry. Stay foolish. - Steve Jobs
 markdown: kramdown
 
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "eabinn-github-io"
+  provider: "utterances"
 
 plugins:
   - jekyll-seo-tag

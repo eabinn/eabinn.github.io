@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-  <!-- <meta
+  <meta
     http-equiv="Content-Security-Policy"
     content="
       default-src 'none'; 
-      script-src 'self' http://disqus.com;
-      style-src 'self' https://fonts.googleapis.com;
+      script-src 'self' utteranc.es; 
+      frame-src utteranc.es;
+      style-src 'self' https://fonts.googleapis.com utteranc.es 'unsafe-inline';
       img-src 'self';
       font-src 'self' https://fonts.gstatic.com;
       connect-src 'self';
@@ -14,7 +15,7 @@
       child-src 'self';
       form-action 'none';
       base-uri 'self'"
-  /> -->
+  />
   <meta http-equiv="X-XSS-Protection" content="1;mode=block" always />
   <meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin" />
 
