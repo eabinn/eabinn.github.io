@@ -2,7 +2,7 @@
 layout: post
 title: "Unicode와 인코딩 방식"
 data: "2022-02-26 20:21:00 +0900"
-tags: [all, computerScience]
+tags: [all, format]
 comments: true
 ---
 
