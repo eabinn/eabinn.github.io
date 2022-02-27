@@ -1,6 +1,7 @@
 all: All
 thought: Thought
 computerScience: Computer Science
+database: Database
 # til: TIL
 # vue3: Vue3
 # webpack: Webpack

@@ -88,3 +88,10 @@ td {
   border: 1px solid var(--base-color);
   border-collapse: collapse;
 }
+
+// code
+code.language-plaintext {
+  padding: 0 5px;
+  color: var(--code-color-19);
+  background-color: var(--code-background-color);
+}
