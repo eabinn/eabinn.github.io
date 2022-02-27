@@ -216,9 +216,9 @@ figure.highlight {
   margin: 5px 0;
 }
 pre {
-  background-color: var(--background-color);
+  background-color: var(--code-background-color);
   border: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
   overflow: auto;
   font-size: $base-font-size;
