@@ -70,3 +70,21 @@ main {
     display: none;
   }
 }
+
+// table
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+th,
+td {
+  padding: 0 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid var(--base-color);
+  border-collapse: collapse;
+}
