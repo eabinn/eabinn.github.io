@@ -4,12 +4,13 @@ thought: Thought
 database: Database
 format: Format
 web: Web
+book: Book
 # til: TIL
 # vue3: Vue3
 # webpack: Webpack
 javascript: Javascript
 # typescript: Typescript
-# cleanArchitecture: CleanArchitecture
+cleanArchitecture: Clean Architecture
 # refactoring: Refactoring
 # photo: Photo
 # music: Music
