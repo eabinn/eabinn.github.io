@@ -17,7 +17,7 @@ window 객체는 웹 브라우저의 창(window)을 나타내는 객체로, 대�
 
 ---
 
-# 참고
+### 참고
 
 - <a href="http://www.tcpschool.com/javascript/js_bom_window" target="_blank">Window 객체</a>
 

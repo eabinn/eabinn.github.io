@@ -18,7 +18,7 @@ GET 방식을 통해 HTTP 요청을 할 때 쿼리 파리미터가 붙는 경우
 
 ---
 
-# 참고
+### 참고
 
 - <a href="https://brownbears.tistory.com/501" target="_blank">[Python] URL 인코딩 (퍼센트 인코딩) - urllib 사용하기</a>
 

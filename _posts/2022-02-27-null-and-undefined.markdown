@@ -23,7 +23,7 @@ null 타입 변수의 경우에는 명시적으로 값이 비어있음을 의미
 
 ---
 
-# 참고
+### 참고
 
 - <a href="https://webclub.tistory.com/1" target="_blank">undefined와 null의 차이점</a>
 

@@ -41,6 +41,7 @@ MySQL의 index는 효과적으로 제목을 찾기 위해 **"색인(index)"** �
 - 단점 : 데이터가 조작하는 INSERT, UPDATE, DELETE query를 사용하는 경우, 정렬을 해서 데이터를 저장해야 하기 때문에 query의 수행시간이 늘어난다.
 
 따라서, 특정 필드를 indexing하는 경우 해당 필드에 대한 INSERT, UPDATE, DELETE 성능은 저하되지만 SELECT 성능은 향상된다. 하지만 하나의 테이블의 필드들에 대해 너무 많은 indexing을 하게 될 경우에는 전체적으로 성능이 저하되므로 분명한 목적을 가지고 indexing을 해야 한다.
+<br>
 
 # Index를 지정하면 좋은 경우
 
@@ -54,7 +55,7 @@ Index의 경우 SELECT의 성능이 향상되므로 다음과 같은 경우에�
 
 ---
 
-# 참고
+### 참고
 
 - <a href="https://brunch.co.kr/@skeks463/25#:~:text=%EC%A6%89%20%EC%83%89%EC%9D%B8(Index)%20%EA%B8%B0%EB%8A%A5%EC%9D%80,%EB%8F%84%EA%B5%AC%EB%A1%9C%20%EB%A7%8E%EC%9D%B4%20%EC%82%AC%EC%9A%A9%EB%90%9C%EB%8B%A4" target="_blank">[DataBase] DB 성능을 위한 Index</a>
 
