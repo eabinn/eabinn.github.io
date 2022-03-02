@@ -10,6 +10,8 @@ comments: true
 
 Index는 특정 column 값을 가지고 있는 열을 빠르게 찾기 위해 사용한다. MySQL은 전체 테이블에 걸쳐서 첫번째 열부터 연관된 열을 검색하기 때문에 테이블이 크면 클수록 비용이 엄청나게 늘어난다.
 
+<br>
+
 # Index의 역할
 
 1. Primary Key
@@ -26,6 +28,8 @@ MySQL의 index는 효과적으로 제목을 찾기 위해 **"색인(index)"** �
 
 - B-Tree 데이터 구조: 전산학에서 B-트리(B-tree)는 데이터베이스와 파일 시스템에서 널리 사용되는 트리 자료구조의 일종으로, 이진 트리를 확장해 하나의 노드가 가질 수 있는 자식 노드의 최대 숫자가 2보다 큰 트리 구조이다. (출처: [위키백과](<https://ko.wikipedia.org/wiki/B_%ED%8A%B8%EB%A6%AC#:~:text=%EC%A0%84%EC%82%B0%ED%95%99%EC%97%90%EC%84%9C%20B%2D%ED%8A%B8%EB%A6%AC(B,%EB%B3%B4%EB%8B%A4%20%ED%81%B0%20%ED%8A%B8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0%EC%9D%B4%EB%8B%A4.)>))
 
+<br>
+
 # DB에서 index와 저장되는 데이터의 자료구조
 
 |          |    Index    | 저장되는 데이터 |
@@ -34,6 +38,8 @@ MySQL의 index는 효과적으로 제목을 찾기 위해 **"색인(index)"** �
 
 - Sorted List: 저장되는 값을 항상 정렬된 상태로 유지하는 자료구조다
 - Array List: 저장되는 순서에 따라서 정렬없이 저장되는 값을 유지하는 자료구조다.
+
+<br>
 
 # Index의 자료구조 SortedList의 장점과 단점
 
