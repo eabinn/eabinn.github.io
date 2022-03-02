@@ -101,3 +101,12 @@ blockquote {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+// text
+h1 {
+  font-size: $base-title-font-size !important;
+}
+
+h2 {
+  font-size: $base-sub-title-font-size !important;
+}
