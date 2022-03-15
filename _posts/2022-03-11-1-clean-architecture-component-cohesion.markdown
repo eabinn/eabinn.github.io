@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Clean Architecture] 컴포넌트 응집도"
-data: "2022-03-11 00:10:00 +0900"
+data: "2022-03-11 06:10:00 +0900"
 tags: [all, cleanArchitecture, book]
 comments: true
 ---
