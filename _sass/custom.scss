@@ -110,3 +110,35 @@ h1 {
 h2 {
   font-size: $base-sub-title-font-size !important;
 }
+
+// post
+.post-container {
+  & ~ & {
+    margin-top: 10px;
+  }
+}
+
+ul.post-list {
+  list-style: none !important;
+
+  li {
+    border: 1px solid #ffffff;
+    border-style: dashed;
+
+    &:before {
+      margin: 0;
+      content: "";
+    }
+
+    a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+
+      .title {
+        display: block;
+        font-weight: bold;
+      }
+    }
+  }
+}

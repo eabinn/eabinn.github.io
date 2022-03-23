@@ -22,8 +22,8 @@ layout: default
 
 {%- if site.posts.size > 0 -%}
 {%- for post in site.posts -%}
-<div>
-  <ul>
+<div class="post-container">
+  <ul class="post-list">
     <li 
     class="post"
     {% if post.tags %}
@@ -32,9 +32,9 @@ layout: default
       {% endfor %}
     {% endif %}
     >
-      <span>{%- assign date_format = "%Y-%m-%d" -%} [ {{ post.date | date: date_format }} ]</span>
       <a href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
+        <span>{%- assign date_format = "%Y-%m-%d" -%} [ {{ post.date | date: date_format }} ]</span>
+        <span class="title">{{ post.title | escape }}</span>
       </a>
     </li>
   </ul>
