@@ -5,6 +5,7 @@ database: Database
 format: Format
 web: Web
 book: Book
+rx: Rx
 # til: TIL
 # vue3: Vue3
 # webpack: Webpack
